@@ -1,1 +1,64 @@
+@import'./materialize.scss';
 
+//Header
+$header-bg: url(../img/pattern.png);
+$header-height: 300px;
+
+// text color functions
+// @function set-text-color ($color) {
+// @if(lightness()) >50 {
+//     @return black
+
+// };
+
+// @else(lightness()) >50 {
+//     @return white
+
+// };
+
+
+// }
+.main-header {
+    background: $header-bg;
+    color: #fff;
+    height: $header-height;
+    margin-bottom: 30px;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 30px;
+}
+
+body {
+background: $primary-color;
+color: set-text-clor($primary-color);
+
+}
+
+.image-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 300px;
+}
+
+.page-footer{
+background: $secondary-color;
+
+.footer-copyright{
+background: $secondary-color-light;
+    
+}
+
+}
+
+.modal {
+    color: #333;
+}
+
+.row1,
+.row2,
+.row3 {
+    opacity: 0;
+}
